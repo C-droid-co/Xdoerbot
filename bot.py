@@ -15,10 +15,10 @@ load_dotenv()
 
 # Authenticate with Twitter
 auth = tweepy.OAuth1UserHandler(
-    os.getenv('API_KEY'),
-    os.getenv('API_SECRET'),
-    os.getenv('ACCESS_TOKEN'),
-    os.getenv('ACCESS_TOKEN_SECRET')
+    os.getenv('NLc7BHiNT4V08uFRfFvVuoDHN'),
+    os.getenv('XOEV67GAgHKkjOsNu6QFTqcD9maEEptn0N14wBCgZOpZZhDg0G'),
+    os.getenv('1878551436486737920-I25tk0zAmvGyPS3OgwDqGN5Wlc0npY'),
+    os.getenv('6t0Ae8PWKm2YKhV7ICkgYvnsp9XYzLskhEZQ2FdpJ3j3e')
 )
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
